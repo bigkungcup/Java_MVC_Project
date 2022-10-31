@@ -1,0 +1,92 @@
+body {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    display: block;
+}
+
+table {
+    width: 100% ;
+}
+
+th, td {
+    padding: 10px ;
+    margin: 5px ;
+    border-bottom: 1px solid #ddd ;
+    text-align: left;
+}
+
+.container {
+    width: 60% ;
+    margin: auto ;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px 10px ;
+}
+
+.login {
+    position:relative;
+    top: -50px;
+    right: 100px;
+    float: right ;
+}
+
+.menu {
+    padding: 10px ;
+    text-align: center;
+    border: gainsboro 2px solid;
+    border-radius: 15px;
+}
+
+.button {
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: burlywood;
+    color: white;
+    padding: 3px 6px;
+    text-decoration: none;
+    cursor: pointer;
+    border: burlywood 1px solid;
+    border-radius: 5px;
+}
+
+.field {
+    margin: 5px ;
+    padding: 5px ;
+}
+
+.brown {
+    background-color: saddlebrown;
+}
+
+.basket {
+    margin: auto;
+    padding: 20px ;
+    width: 30% ;
+    text-align: center;
+    background-color: moccasin;
+}
+
+.back {
+    font-size: x-large;
+    text-decoration: none;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+.logger {
+    font-size: small;
+    font-style: italic;
+    color: darkgray;
+}
